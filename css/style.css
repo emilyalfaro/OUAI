@@ -1,0 +1,108 @@
+.navbar navbar-expand-lg navbar-light bg-light{
+	background-color: #FFFFFF;
+}
+
+
+
+.nav-link{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	color: #000000;
+	font-family: Avenir;
+
+}
+
+#hero{
+	background-image: url("../img/homepage_1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20% 0;
+	color: #FFFFFF;
+	font-family: Avenir;
+	text-transform: uppercase;
+}
+
+#shop{
+	color:#FFFFFF;
+}
+
+#life h6{
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: Avenir;
+	margin-top: 15%;
+}
+
+#life h5{
+	text-transform: uppercase;
+	font-family: Avenir;
+	font-size: 20px;
+	margin-top: 5%;
+}
+
+#life{
+	padding: 30px 0;
+}
+
+#hair-care{
+	padding: 10% 0;
+}
+
+
+#shampoo{
+	font-family: Avenir;
+	padding: 10% 0;
+	
+}
+
+#shampoo h1{
+	text-transform: uppercase;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 20%;
+}
+
+#shampoo h6{
+	color: #000000;
+	
+}
+
+#shampoo h5{
+	color: #000000;
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+
+
+#footer{
+	font-family: Avenir;
+	text-transform: uppercase;
+	padding: 2% 0;
+	color: #000000;
+	border-top: 1px solid #000;
+ 
+}
+
+.btn-subscribe {
+	background-color: #000000;
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight: 600;
+	color: #fff;
+	padding: 10px 30px;
+	font-family: Avenir;
+}
+
+#hr{
+	width: 50% solid #00000;
+}
+
+
+
+
+
+
