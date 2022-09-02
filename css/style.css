@@ -3,18 +3,28 @@
 }
 
 
-
-.nav-link{
+.linksfooter{
+	list-style: none;
+}
+.linksfooter a{
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: 500;
 	color: #000000;
 	font-family: Avenir;
+	text-decoration: none;
+}
 
+.linksfooter a:hover{
+	color: #C4A679;
+}
+
+.linksfooter li{
+	margin-bottom: 10px;
 }
 
 #hero{
-	background-image: url("../img/homepage_1.png");
+	background-image: url("../img/homepage_1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -60,7 +70,7 @@
 #shampoo h1{
 	text-transform: uppercase;
 	color: #000000;
-	text-align: center;
+	text-align: left;
 	margin-bottom: 20%;
 }
 
@@ -84,7 +94,7 @@
 	padding: 2% 0;
 	color: #000000;
 	border-top: 1px solid #000;
- 
+	padding-top: 5%;
 }
 
 .btn-subscribe {
@@ -95,6 +105,10 @@
 	color: #fff;
 	padding: 10px 30px;
 	font-family: Avenir;
+}
+
+.btn-subscribe a:hover{
+	color: #C4A679;
 }
 
 #hr{
