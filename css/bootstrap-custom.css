@@ -92,7 +92,9 @@ a{
 	font-size: 20px;
 }
 
-
+header{
+	border-bottom: 1px solid #000;
+}
 
 
 
