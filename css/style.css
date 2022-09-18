@@ -3,6 +3,19 @@
 }
 
 
+.product{
+	list-style: none;
+	
+}
+
+.product a{
+text-decoration: none;	
+}
+
+.product a:hover{
+	color: #C4A679;
+}
+
 .linksfooter{
 	list-style: none;
 }
@@ -34,8 +47,53 @@
 	text-transform: uppercase;
 }
 
+#hero h3{
+	position: relative;
+	top: -200px;
+	left: 105px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#hero h1{
+	position: relative;
+	bottom: -200px;
+	left: 105px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 50px;
+	letter-spacing: 5px;
+}
+
 #shop{
 	color:#FFFFFF;
+	position: relative;
+	bottom: -200px;
+	left: 105px;
+}
+
+#cuadricula h3{
+	position: relative;
+	bottom: -600px;
+	left: 20px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+#cuadricula h6{
+	position: relative;
+	bottom: -600px;
+	left: 20px;
+	color: #FFFFFF;
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-weight: 400;
 }
 
 #life h6{
@@ -86,7 +144,44 @@
 	font-size: 14px;
 }
 
+#finehair h6{
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 500;
+	margin-top:20%;
+}
 
+#finehair h5{
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding:5%;
+	position:relative;
+	top: 3;
+	left: 100	
+	
+}
+
+#finehair p{
+	font-family: Avenir;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 500;
+}
+
+#finehair h4{
+	font-family: Avenir;
+	font-size: 14px;
+	margin-top:10%;
+}
+
+#finehair h2{
+	font-family: Avenir;
+	font-size: 11px;
+	text-transform: uppercase;
+	
+}
 
 #footer{
 	font-family: Avenir;
@@ -95,6 +190,14 @@
 	color: #000000;
 	border-top: 1px solid #000;
 	padding-top: 5%;
+}
+
+.information{
+	margin-top: 180%;
+}
+
+.information hr{
+	color:#C4A679;
 }
 
 .btn-subscribe {
@@ -155,7 +258,7 @@ height:10px;
 	
 }
 
-#form-login .form-control{
+#form-logins .form-control{
 	border:0;
 	border-bottom: 1px solid #000;
 	border-radius: 0;
@@ -173,4 +276,28 @@ height:10px;
 	margin: 5 0;
 }
 
+#footer h6{
+	margin-top: 20px;
+}
 
+.btn-bag{
+	background-color:#000000;
+	color: #FFFFFF;
+	font-size: 17px;
+	border: 1px #00000;
+	font-family: Avenir;
+	font-weight: 200;
+}
+
+.btn-bag a:hover{
+	color: #C4A679;
+}
+
+.btn-create{
+	background-color: transparent;
+	font-size: 16px;
+	border: 1px #00000;
+	font-family: Avenir;
+	font-weight: 200;
+	letter-spacing: 0.5px;
+}
